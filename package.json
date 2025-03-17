@@ -1,0 +1,16 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "pnpm --filter examples run dev",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^3.0.8"
+  }
+}
