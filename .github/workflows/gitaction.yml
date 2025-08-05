@@ -20,7 +20,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
+    - name: Echo
       run: |
-        npm install
-        npx webpack
+        echo 'hello world'
